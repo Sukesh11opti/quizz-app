@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a0bec8 0%, #0f1212 100%);
+    color: #fff;
+}
+
+.quiz-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quiz-card {
+    background: rgba(228, 7, 7, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.quiz-title {
+    font-size: 3em;
+    margin-bottom: 28px;
+    color: rgb(16, 7, 16);
+}
+
+.question {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.options .list-group-item {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 13px;
+    font-size: 1.3em;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.options .list-group-item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#next-button {
+    display: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+#result-container {
+    font-size: 1.5em;
+}
+
+#restart-button {
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+.list-group-item-success {
+    background: #28a745 !important;
+    color: white;
+}
+
+.list-group-item-danger {
+    background: #dc3545 !important;
+    color: white;
+}
